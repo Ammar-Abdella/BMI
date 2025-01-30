@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:bmi_calculator/util/constants.dart';
+import 'package:bmi_calculator/util/constants.dart';
 class MyCard extends StatelessWidget {
 
   final IconData Myicon;
@@ -16,11 +17,11 @@ class MyCard extends StatelessWidget {
         Icon(
           Myicon,
           size: 100.0,
-          color: Colors.white,
+          color: Colors.white
         ),
         Text(
           text,
-          style: Theme.of(context).textTheme.bodyLarge,
+          style: TextStyle(color: kMyTextcolor),
         )
       ],
     );
